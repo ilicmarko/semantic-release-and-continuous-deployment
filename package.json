@@ -1,14 +1,15 @@
 {
   "name": "semantic-release-and-continuous-deployment",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ilicmarko/semantic-release-and-continuous-deployment.git"
+    "url": "https://github.com/ilicmarko/semantic-release-and-continuous-deployment.git"
   },
   "author": "",
   "license": "ISC",
@@ -17,7 +18,8 @@
   },
   "homepage": "https://github.com/ilicmarko/semantic-release-and-continuous-deployment#readme",
   "devDependencies": {
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^17.1.2"
   },
   "config": {
     "commitizen": {
